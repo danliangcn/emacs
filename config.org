@@ -336,3 +336,4 @@
     :bind
     ("M-g" . magit-status))
 #+END_SRC
+
