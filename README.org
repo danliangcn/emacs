@@ -1,1 +1,2 @@
+Here is my configuration for emacs. Check it out by the link.
 [[./config.org][config.org]]
