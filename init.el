@@ -37,7 +37,7 @@
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(package-selected-packages
    (quote
-    (magit org-noter yasnippet-snippets yasnippet pretty-mode expand-region mark-multiple popup-kill-ring diminish spaceline dashboard switch-window avy smex ido-vertical-mode org-bullets beacon which-key use-package spacemacs-theme google-this org-ref pdf-tools org-pdfview auto-complete ess-smart-underscore ess auctex))))
+    (pdf-tools magit org-noter yasnippet-snippets yasnippet pretty-mode expand-region mark-multiple popup-kill-ring diminish spaceline dashboard switch-window avy smex ido-vertical-mode org-bullets beacon which-key use-package spacemacs-theme google-this org-ref org-pdfview auto-complete ess-smart-underscore ess auctex))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

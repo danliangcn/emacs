@@ -324,7 +324,12 @@
 #+END_SRC
 * Pdf tools
 #+BEGIN_SRC emacs-lisp
-(pdf-tools-install)
+  (setenv "PKG_CONFIG_PATH" "/usr/local/lib/pkgconfig:/usr/local/Cellar/libffi/3.2.1/lib/pkgconfig")
+  (use-package pdf-tools
+    :ensure t
+    :config
+    (pdf-tools-install)
+    (setq-default pdf-view-display-size 'fit-page))
 #+END_SRC
 * Github
 #+BEGIN_SRC emacs-lisp
