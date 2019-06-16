@@ -324,6 +324,7 @@
 #+END_SRC
 * Pdf tools
 #+BEGIN_SRC emacs-lisp
+
 (pdf-tools-install)
 #+END_SRC
 * Github
